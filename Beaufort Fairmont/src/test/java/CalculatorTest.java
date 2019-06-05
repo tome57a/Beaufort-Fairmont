@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
   features = { "classpath:features/Calculator.feature" },
-  glue = {"main.java" })
+  glue = {"test.java" })
 
 public class CalculatorTest {
 	//TODO: Run with JUnit
